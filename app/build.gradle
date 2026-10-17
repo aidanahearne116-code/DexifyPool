@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.dexify.pool'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.dexify.pool'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
